@@ -11,7 +11,7 @@ Non è una pagina “politica”: tono ValoreCasaTua = informativo per proprieta
 ## Tema (dati del dibattito pubblico)
 
 - Soglia UE stress abitativo: prezzo casa > **8×** reddito medio
-- Milano: **9,9** (2024) → **10,5** (2025)
+- Milano: **9,9** (dato 2024) → **10,5** (dato 2025) — pagina etichettata **2026**
 - Case vuote: **13%**
 - Affitti brevi: da **10.200** a **oltre 16.300** annunci in meno di 4 anni
 
