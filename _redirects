@@ -1,0 +1,19 @@
+# URL canonico: /index.html non deve rispondere 200
+/index.html          /            301!
+/*/index.html        /:splat/     301!
+
+# Redirect URL vecchi o abbreviati -> pagine corrette
+/ristruttura          /conviene-ristrutturare/     301
+/ristruttura/         /conviene-ristrutturare/     301
+/valutazione          /valuta/                      301
+/valutazione/         /valuta/                      301
+/stima                /valuta/                      301
+/stima/               /valuta/                      301
+/guida                /guide/                       301
+/guida/               /guide/                       301
+/vendere-casa-separazione-divorzio   /casa-separazione-divorzio-lombardia/   301
+/vendere-casa-separazione-divorzio/  /casa-separazione-divorzio-lombardia/   301
+/lombardia            /mercato-immobiliare-lombardia-2026/   301
+/mercato-lombardia    /mercato-immobiliare-lombardia-2026/   301
+
+# Soft-duplicate homepage (force: sovrascrive il file statico)

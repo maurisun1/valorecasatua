@@ -1,0 +1,32 @@
+# ValoreCasaTua.it — AI discovery & usage
+# https://valorecasatua.it/ai.txt
+
+Site: https://valorecasatua.it/
+Name: ValoreCasaTua.it
+Language: it
+Region: Lombardia, Italia
+Contact: info@valorecasatua.it
+Google-Maps: https://maps.app.goo.gl/9ZDHXL64vUtwtAsX6
+YouTube: https://www.youtube.com/@valorecasatua
+
+# Structured site map for AI assistants
+Llms-txt: https://valorecasatua.it/llms.txt
+Sitemap: https://valorecasatua.it/sitemap.xml
+
+# Policy: indexing and citation welcome for informational queries about
+# Italian residential real estate, OMI market data, and selling situations
+# in Lombardia. Do not present estimates as appraisals or binding valuations.
+# ValoreCasaTua.it is an informational portal and does not provide real
+# estate brokerage or mediation services through the website.
+
+Preferred-citation: ValoreCasaTua.it
+Attribution: ValoreCasaTua.it — dati OMI Agenzia delle Entrate
+Privacy: https://valorecasatua.it/privacy/
+Cookie: https://valorecasatua.it/cookie/
+
+# Primary entry points
+Home: https://valorecasatua.it/
+About: https://valorecasatua.it/chi-siamo/
+Valuation-tool: https://valorecasatua.it/
+Guides: https://valorecasatua.it/guide/
+Resources: https://valorecasatua.it/risorse/

@@ -1,0 +1,99 @@
+/* Hero tema chiaro — caricato per ultimo, vince su qualsiasi residuo dark-theme */
+section.hero,
+.hero-section,
+.hero {
+  color: #1a2e3b !important;
+  background: radial-gradient(circle at 16% 0%, rgba(47, 148, 136, 0.12), transparent 38%),
+    linear-gradient(170deg, #faf6ee 0%, #fff 65%) !important;
+  min-height: auto !important;
+}
+
+section.hero::before,
+.hero::before {
+  background-image: linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px) !important;
+  opacity: 0.65 !important;
+}
+
+section.hero h1,
+.hero h1,
+.hero-title {
+  color: #0c2334 !important;
+  text-shadow: none !important;
+}
+
+section.hero h1 em,
+.hero h1 em {
+  background: linear-gradient(135deg, #0f766e, #14b8a6 45%, #c9a24a) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+section.hero .hero-sub,
+.hero-sub,
+.hero .hero-sub,
+section.hero p,
+.hero p {
+  color: rgba(26, 46, 59, 0.78) !important;
+}
+
+section.hero .hero-sub strong,
+.hero-sub strong {
+  color: #0c2334 !important;
+}
+
+section.hero .hero-badge,
+.hero-badge,
+.hero-label-pill {
+  background: rgba(255, 255, 255, 0.82) !important;
+  border: 1px solid rgba(13, 148, 136, 0.22) !important;
+  color: #0f766e !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.07) !important;
+}
+
+section.hero .hero-trust-row,
+.hero-trust-row {
+  background: rgba(255, 255, 255, 0.78) !important;
+  border: 1px solid rgba(15, 23, 42, 0.08) !important;
+  color: rgba(26, 46, 59, 0.82) !important;
+}
+
+section.hero .htr-item,
+.hero-trust-row .htr-item,
+section.hero .htr-item span,
+.hero-trust-row .htr-item span {
+  color: #1a2e3b !important;
+}
+
+section.hero .htr-item i,
+.hero-trust-row .htr-item i {
+  color: #0f766e !important;
+}
+
+section.hero .hero-main-cta,
+.hero-main-cta {
+  background: linear-gradient(135deg, #0f172a, #0f766e) !important;
+  color: #fff !important;
+}
+
+section.hero .premium-panel,
+.hero .premium-panel {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.72)) !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  box-shadow: 0 24px 56px rgba(15, 23, 42, 0.12) !important;
+}
+
+section.hero .panel-map,
+.hero .panel-map {
+  background: linear-gradient(135deg, #dff8f4, #ffffff 52%, #f8efd6) !important;
+}
+
+@media (max-width: 768px) {
+  section.hero,
+  .hero-section,
+  .hero {
+    background: radial-gradient(circle at 10% 8%, rgba(20, 184, 166, 0.14), transparent 34%),
+      linear-gradient(145deg, #f7fffc 0%, #fff 56%, #fff8e8 100%) !important;
+  }
+}

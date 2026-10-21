@@ -1,0 +1,86 @@
+/* ValoreCasaTua.it — tema chiaro condiviso */
+
+:root {
+  --navy: #faf8f4;
+  --navy-2: #f2ede4;
+  --navy-3: #ebe5d9;
+  --teal: #2f9488;
+  --teal-bright: #1a7a6f;
+  --teal-soft: #0f5c54;
+  --gold: #8b6914;
+  --gold-bright: #a67c1a;
+  --cream: #f4efe6;
+  --form-bg: #f5efe3;
+  --ink: #0c2334;
+  --text: #1a2e3b;
+  --text-soft: rgba(26, 46, 59, 0.78);
+  --text-mute: rgba(26, 46, 59, 0.58);
+  --muted: #6b7c87;
+  --line: rgba(12, 35, 52, 0.1);
+}
+
+/* Form lead crema (vct-lead-card) */
+.vct-lead-card {
+  background: var(--form-bg);
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgba(12, 35, 52, 0.12);
+}
+.vct-lead-eye,
+.vct-note { color: #6b4a0e; }
+.vct-lead-card h2,
+.vct-lead-card label { color: #1c1917; }
+.vct-lead-card .sub { color: #5a3e28; }
+.vct-field label { color: #5a3e28; }
+.vct-field input,
+.vct-field select,
+.vct-field textarea {
+  background: #fff;
+  border: 1.5px solid rgba(12, 35, 52, 0.14);
+  color: #1c1917;
+}
+.vct-field input::placeholder,
+.vct-field textarea::placeholder { color: rgba(58, 42, 26, 0.4); }
+.vct-field input:focus,
+.vct-field select:focus,
+.vct-field textarea:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(47, 148, 136, 0.12);
+}
+.vct-privacy { color: #5a3e28; }
+.vct-privacy a { color: #1a5c54; font-weight: 700; }
+.vct-lead-btn,
+.lead-form button[type="submit"],
+.btn-submit {
+  background: linear-gradient(135deg, var(--teal), var(--teal-bright));
+  color: #04201c;
+}
+
+/* Note legali footer (D.Lgs. 70/2003) */
+.vct-legal {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 11.5px;
+  line-height: 1.65;
+  color: rgba(26, 46, 59, 0.48);
+  text-align: center;
+}
+.vct-legal a {
+  color: rgba(26, 46, 59, 0.58);
+  text-decoration: none;
+}
+.vct-legal a:hover {
+  color: var(--teal-bright);
+  text-decoration: underline;
+}
+
+/* Disclaimer sotto i form lead */
+.vct-form-disc {
+  font-size: 0.74rem;
+  color: rgba(26, 46, 59, 0.52);
+  margin: 0 0 12px;
+  line-height: 1.45;
+}
+.vct-lead-card .vct-form-disc {
+  color: #78716c;
+}

@@ -1,0 +1,43 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Motori di risposta AI: accesso esplicitamente consentito
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+User-agent: Claude-Web
+Allow: /
+Disallow: /api/
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+User-agent: CCBot
+Allow: /
+Disallow: /api/
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+
+Sitemap: https://valorecasatua.it/sitemap.xml
+Sitemap: https://valorecasatua.it/sitemap-images.xml
+
+# AI discovery files
+# Discovery (non-standard; files are public)
+# Llms-txt: https://valorecasatua.it/llms.txt
+# Ai-txt: https://valorecasatua.it/ai.txt

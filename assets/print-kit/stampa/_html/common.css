@@ -1,0 +1,24 @@
+:root{
+  --navy:#0b1d2c;
+  --navy-2:#102536;
+  --gold:#c9a45c;
+  --gold-2:#a67c1a;
+  --cream:#f4efe6;
+  --ink:#0c2334;
+  --white:#fff;
+  --ff-sans:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --ff-serif:"Playfair Display",Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden}
+body{font-family:var(--ff-sans);-webkit-font-smoothing:antialiased}
+.gold{color:var(--gold)}
+.url{font-weight:800;letter-spacing:.01em;color:var(--gold)}
+.logo{display:flex;align-items:center;gap:.45em}
+.logo svg{flex:none}
+.logo-name{font-family:var(--ff-serif);font-weight:600;letter-spacing:-.02em}
+.logo-name em{font-style:normal;color:var(--gold)}
+.wa{display:flex;align-items:center;gap:.45em}
+.invite{line-height:1.25}
+.qr-box{background:#fff;padding:4.2%;border-radius:4px}
+.qr-box img{display:block;width:100%;height:auto}

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://valorecasatua.it/</loc>
+    <lastmod>2026-09-22</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/hero-milano-1400.jpg</image:loc>
+      <image:title>Skyline di Milano: Duomo e Porta Nuova al tramonto</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/trust-maurizio-avatar.jpg</image:loc>
+      <image:title>Maurizio Piraino, editore di ValoreCasaTua.it</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/verifica-casa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/trust-maurizio-avatar.jpg</image:loc>
+      <image:title>Maurizio Piraino</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/eco-checkup.jpg</image:loc>
+      <image:title>Check-Up Pre Vendita — documenti</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/conviene-ristrutturare/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/eco-ristrutturare.jpg</image:loc>
+      <image:title>Prima e dopo ristrutturazione</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/affitto-breve-vs-transitorio/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-inquilino.jpg</image:loc>
+      <image:title>Strategia affitto</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/affitto-breve-vs-transitorio.webp</image:loc>
+      <image:title>Copertina: Affitto breve, transitorio o 4+4?.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/classe-energetica-valore-casa/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/eco-energia.jpg</image:loc>
+      <image:title>Classe energetica e valore casa</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/classe-energetica-valore-casa.webp</image:loc>
+      <image:title>Copertina: Si può vendere una casa in classe G?.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-ricevuta-in-donazione/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-donazione.jpg</image:loc>
+      <image:title>Casa ricevuta in donazione</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-ricevuta-in-donazione.webp</image:loc>
+      <image:title>Copertina: Vendita di una casa donata: cosa cambia nel 2026.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/risorse/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-documenti.jpg</image:loc>
+      <image:title>Centro risorse</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/glossario/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/og-risorse.jpg</image:loc>
+      <image:title>Glossario immobiliare: OMI, APE, plusvalenza</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/chi-siamo/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/trust-maurizio.jpg</image:loc>
+      <image:title>Maurizio Piraino</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/eco-valore.jpg</image:loc>
+      <image:title>Il progetto ValoreCasaTua</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/hero-milano.jpg</image:loc>
+      <image:title>Skyline di Milano</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-brescia.jpg</image:loc>
+      <image:title>Brescia</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/guide.webp</image:loc>
+      <image:title>Copertina: Prezzi immobiliari in Lombardia, zona per zona.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-milano/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/hero-milano.jpg</image:loc>
+      <image:title>Skyline di Milano</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-milano.webp</image:loc>
+      <image:title>Copertina: Prezzi delle case a Milano nel 2026: quotazioni OMI al m² per zona. € 1.900 – 16.000/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-brescia/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-brescia.jpg</image:loc>
+      <image:title>Brescia vista dal Castello</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-brescia.webp</image:loc>
+      <image:title>Copertina: Valutazione immobiliare Brescia 2026: quotazioni OMI e prezzi al m². € 1.250 – 4.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-bergamo/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-bergamo.jpg</image:loc>
+      <image:title>Bergamo Città Alta</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-bergamo.webp</image:loc>
+      <image:title>Copertina: Quotazioni OMI Bergamo 2026: prezzi al m² zona per zona. € 1.400 – 4.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-como/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-como.jpg</image:loc>
+      <image:title>Como e Lago di Como</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-como.webp</image:loc>
+      <image:title>Copertina: Valutazione immobiliare e prezzi case a Como 2026: OMI città e lago. € 1.250 – 6.000/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-monza-brianza/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-monza.jpg</image:loc>
+      <image:title>Duomo di Monza</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-monza-brianza.webp</image:loc>
+      <image:title>Copertina: Valutazione casa a Monza e Brianza 2026: prezzi al m² OMI per comune. € 1.700 – 5.500/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-varese/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-varese.jpg</image:loc>
+      <image:title>Lago di Varese</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-varese.webp</image:loc>
+      <image:title>Copertina: Quotazioni OMI Varese 2026: prezzi al m² e comuni. € 900 – 3.200/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-cremona/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-cremona.jpg</image:loc>
+      <image:title>Torrazzo di Cremona</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-cremona.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Cremona: la mappa per zona. € 700 – 2.550/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-lecco/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-lecco.jpg</image:loc>
+      <image:title>Lecco e ramo di Lecco del Lago di Como</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-lecco.webp</image:loc>
+      <image:title>Copertina: Stima immobiliare Lecco 2026: quotazioni OMI e prezzi al m². € 1.100 – 2.900/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-lodi/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-lodi.jpg</image:loc>
+      <image:title>Piazza della Vittoria a Lodi</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-lodi.webp</image:loc>
+      <image:title>Copertina: Quotazioni OMI Lodi 2026: prezzi al m² nel Lodigiano. € 1.250 – 3.000/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-mantova/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-mantova.jpg</image:loc>
+      <image:title>Mantova vista dal lago</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-mantova.webp</image:loc>
+      <image:title>Copertina: Quotazioni OMI Mantova 2026: prezzi al m² per area. € 550 – 2.900/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-pavia/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-pavia.jpg</image:loc>
+      <image:title>Ponte Coperto di Pavia</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-pavia.webp</image:loc>
+      <image:title>Copertina: Prezzi case e valutazione immobiliare a Pavia 2026: OMI al m² per zona. € 1.200 – 4.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-sondrio/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-sondrio.jpg</image:loc>
+      <image:title>Valtellina in provincia di Sondrio</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-sondrio.webp</image:loc>
+      <image:title>Copertina: Quotazioni OMI Sondrio 2026: Valtellina, Livigno e Bormio. € 900 – 10.700/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/casa-separazione-divorzio-lombardia/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-separazione.jpg</image:loc>
+      <image:title>Casa e separazione o divorzio</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/casa-separazione-divorzio-lombardia.webp</image:loc>
+      <image:title>Copertina: Separazione: casa cointestata, figli e mutuo.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/casa-ereditata-divisione-eredi-lombardia/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-eredita.jpg</image:loc>
+      <image:title>Casa ereditata</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/casa-ereditata-divisione-eredi-lombardia.webp</image:loc>
+      <image:title>Copertina: Casa ereditata occupata da un erede: chi paga l'IMU.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/comprare-casa-prima-di-vendere/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-comprare-prima.jpg</image:loc>
+      <image:title>Comprare casa prima di vendere</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/comprare-casa-prima-di-vendere.webp</image:loc>
+      <image:title>Copertina: Vuoi comprare casa ma devi prima vendere la tua?.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/casa-vuota-sfitta-cosa-fare/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-casa-vuota.jpg</image:loc>
+      <image:title>Casa vuota o sfitta</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/casa-vuota-sfitta-cosa-fare.webp</image:loc>
+      <image:title>Copertina: Casa vuota a Milano: IMU, TARI e costo di tenerla ferma.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/trasferimento-lavoro-vendere-affittare-casa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-trasferimento.jpg</image:loc>
+      <image:title>Trasferimento lavorativo</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/trasferimento-lavoro-vendere-affittare-casa.webp</image:loc>
+      <image:title>Copertina: Ti trasferisci per lavoro? Prima di lasciare casa vuota, valuta se venderla o affittarla.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/pensione-cambiare-casa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-pensione.jpg</image:loc>
+      <image:title>Pensione e cambio vita</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/pensione-cambiare-casa.webp</image:loc>
+      <image:title>Copertina: Pensione e cambio vita: la tua casa è ancora adatta alle tue esigenze?.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/mercato-immobiliare-lombardia-2026/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/hero-milano.jpg</image:loc>
+      <image:title>Mercato immobiliare Lombardia</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/mercato-immobiliare-lombardia-2026.webp</image:loc>
+      <image:title>Copertina: Prezzi case in Lombardia 2026: il confronto OMI provincia per provincia. € 1.250 – 5.458/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/report-omi-lombardia-2026/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/hero-milano.jpg</image:loc>
+      <image:title>Skyline di Milano</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/report-omi-lombardia-2026.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² in Lombardia: i 12 capoluoghi a confronto. € 4.088/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/quanto-costa-vendere-casa/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-calcoli.jpg</image:loc>
+      <image:title>Quanto costa vendere casa</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/quanto-costa-vendere-casa.webp</image:loc>
+      <image:title>Copertina: Quanto costa vendere una casa nel 2026? Tutte le spese.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-con-mutuo/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-mutuo.jpg</image:loc>
+      <image:title>Vendere con il mutuo in corso</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-con-mutuo.webp</image:loc>
+      <image:title>Copertina: Si può vendere casa con mutuo in corso? Sì: ecco come funziona.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-nuda-proprieta-usufrutto/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-nuda-proprieta.jpg</image:loc>
+      <image:title>Nuda proprietà e usufrutto</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-nuda-proprieta-usufrutto.webp</image:loc>
+      <image:title>Copertina: Vendere la nuda proprietà: incassare oggi, continuare a vivere in casa tua.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-diritto-superficie/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-superficie.jpg</image:loc>
+      <image:title>Vendere casa in diritto di superficie</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-diritto-superficie.webp</image:loc>
+      <image:title>Copertina: Vendere casa in diritto di superficie: cosa controllare prima.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-popolare-riscatto/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-popolare.jpg</image:loc>
+      <image:title>Vendere casa popolare o dopo il riscatto</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-popolare-riscatto.webp</image:loc>
+      <image:title>Copertina: Vendere casa popolare o dopo il riscatto: cosa controllare prima.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-dopo-superbonus/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-superbonus.jpg</image:loc>
+      <image:title>Vendere casa dopo il Superbonus 110</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-dopo-superbonus.webp</image:loc>
+      <image:title>Copertina: Vendere casa dopo il Superbonus 110: cosa controllare prima.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-condominio-lavori-morosita/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-condominio.jpg</image:loc>
+      <image:title>Vendere casa in condominio: lavori e morosità</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-condominio-lavori-morosita.webp</image:loc>
+      <image:title>Copertina: Vendere casa in condominio: lavori deliberati e morosità.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-non-conforme-difformita/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-difformita.jpg</image:loc>
+      <image:title>Difformità e conformità</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-non-conforme-difformita.webp</image:loc>
+      <image:title>Copertina: Planimetria difforme: cosa blocca la vendita, e quando si risolve prima.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-da-soli/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-vendere-soli.jpg</image:loc>
+      <image:title>Vendere casa da soli</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-da-soli.webp</image:loc>
+      <image:title>Copertina: Vendere casa senza agenzia: dove conviene e dove si rischia.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/piano-di-marketing-vendere-casa/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/og-sit-vuota.jpg</image:loc>
+      <image:title>Piano di marketing per vendere casa: cosa deve contenere e quando conta lo home staging</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/piano-di-marketing-vendere-casa.webp</image:loc>
+      <image:title>Copertina: Piano di marketing per vendere casa: cosa deve contenere, e quando lo home staging serve davvero.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-affittata-inquilino/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-inquilino.jpg</image:loc>
+      <image:title>Casa con inquilino</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-affittata-inquilino.webp</image:loc>
+      <image:title>Copertina: Vendere casa con un inquilino dentro: si può, e hai più strade di quanto pensi.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/vendere-casa-comproprieta-disaccordo/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-comproprieta.jpg</image:loc>
+      <image:title>Comproprietà</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/vendere-casa-comproprieta-disaccordo.webp</image:loc>
+      <image:title>Copertina: Comproprietà e disaccordo: cosa puoi fare quando uno vuole vendere e l'altro no.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/plusvalenza-vendita-casa/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-plusvalenza.jpg</image:loc>
+      <image:title>Plusvalenza sulla vendita</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/plusvalenza-vendita-casa.webp</image:loc>
+      <image:title>Copertina: Plusvalenza vendita casa prima dei 5 anni: quando si paga.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/checklist-documenti-vendere-casa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/sit-documenti.jpg</image:loc>
+      <image:title>Checklist documenti vendita</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/checklist-documenti-vendere-casa.webp</image:loc>
+      <image:title>Copertina: La checklist dei documenti per vendere casa senza bloccare il rogito.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-seregno/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-seregno.jpg</image:loc>
+      <image:title>Basilica di San Giuseppe a Seregno</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-seregno.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Seregno: fasce per zona. € 2.050 – 3.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-vimercate/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-vimercate.jpg</image:loc>
+      <image:title>Vimercate</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-vimercate.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Vimercate: fasce per zona. € 1.550 – 3.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-treviglio/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-treviglio.jpg</image:loc>
+      <image:title>Basilica di San Martino a Treviglio</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-treviglio.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Treviglio: fasce per zona. € 1.100 – 2.500/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-sesto-san-giovanni/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-sesto-san-giovanni.jpg</image:loc>
+      <image:title>Sesto San Giovanni</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-sesto-san-giovanni.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Sesto San Giovanni: fasce per zona. € 2.000 – 3.900/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-legnano/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-legnano.jpg</image:loc>
+      <image:title>Castello di Legnano</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-legnano.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Legnano: fasce per zona. € 1.300 – 3.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-cinisello-balsamo/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-cinisello-balsamo.jpg</image:loc>
+      <image:title>Cinisello Balsamo</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-cinisello-balsamo.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Cinisello Balsamo: fasce per zona. € 1.700 – 3.100/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-rho/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-rho.jpg</image:loc>
+      <image:title>Rho Fiera Milano</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-rho.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Rho: fasce per zona. € 1.850 – 3.300/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-lissone/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-lissone.jpg</image:loc>
+      <image:title>Lissone, chiesa prepositurale</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-lissone.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Lissone: fasce per zona. € 1.450 – 2.900/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-paderno-dugnano/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-paderno-dugnano.jpg</image:loc>
+      <image:title>Paderno Dugnano</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-paderno-dugnano.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Paderno Dugnano: fasce per zona. € 1.650 – 3.200/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/guide/prezzi-mq-segrate/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/photos/city-segrate.jpg</image:loc>
+      <image:title>Milano Due a Segrate</image:title>
+    </image:image>
+      <image:image>
+      <image:loc>https://valorecasatua.it/assets/covers/prezzi-mq-segrate.webp</image:loc>
+      <image:title>Copertina: Prezzi al m² a Segrate: fasce per zona. € 1.800 – 4.400/m².</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://valorecasatua.it/per-la-stampa/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <image:image>
+      <image:loc>https://valorecasatua.it/assets/og-risorse.jpg</image:loc>
+      <image:title>Per la stampa: Report OMI Lombardia 2026</image:title>
+    </image:image>
+  </url>
+</urlset>

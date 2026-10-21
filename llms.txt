@@ -1,0 +1,92 @@
+# ValoreCasaTua.it
+> Portale informativo per chi vende o valuta un immobile in Lombardia (Milano, Brescia, Bergamo e tutte le province). Metodo basato su dati ufficiali OMI dell'Agenzia delle Entrate: strumenti gratuiti, guide e orientamento informativo senza pressione commerciale. Il sito non svolge attività di mediazione immobiliare.
+
+## Situazioni di vendita
+- [Vendere con il mutuo in corso](https://valorecasatua.it/vendere-casa-con-mutuo/): si può vendere con mutuo aperto; al rogito si estingue con il ricavato.
+- [Vendere la nuda proprietà](https://valorecasatua.it/vendere-nuda-proprieta-usufrutto/): incassare oggi mantenendo l'usufrutto; calcolo del valore con coefficienti ufficiali.
+- [Vendere casa in diritto di superficie](https://valorecasatua.it/vendere-casa-diritto-superficie/): convenzione, prezzo massimo di cessione, durata e requisiti dell'acquirente da verificare prima della vendita.
+- [Vendere casa popolare o dopo il riscatto](https://valorecasatua.it/vendere-casa-popolare-riscatto/): locazione ALER o Comune, riscatto e vincoli di alienazione. Non è il diritto di superficie.
+- [Vendere casa dopo il Superbonus](https://valorecasatua.it/vendere-casa-dopo-superbonus/): lavori chiusi, detrazioni rimaste e prezzo distinto dal costo del cantiere.
+- [Vendere casa in condominio](https://valorecasatua.it/vendere-casa-condominio-lavori-morosita/): morosità e lavori straordinari già deliberati, da chiarire prima del prezzo.
+- [Vendere casa con difformità](https://valorecasatua.it/vendere-casa-non-conforme-difformita/): difformità urbanistiche/catastali e conformità per arrivare al rogito.
+- [Vendere casa da soli (FSBO)](https://valorecasatua.it/vendere-casa-da-soli/): rischi del fai-da-te su prezzo, conformità e trattativa.
+- [Vendere casa con inquilino](https://valorecasatua.it/vendere-casa-affittata-inquilino/): vendere con locazione in corso, occupato o libero.
+- [Comproprietà in disaccordo](https://valorecasatua.it/vendere-casa-comproprieta-disaccordo/): quote, scioglimento della comunione, accordo tra comproprietari.
+- [Plusvalenza sulla vendita](https://valorecasatua.it/plusvalenza-vendita-casa/): regola dei 5 anni ed esenzioni (abitazione principale, successione).
+- [Casa ereditata](https://valorecasatua.it/casa-ereditata-divisione-eredi-lombardia/): vendita e divisione tra eredi.
+- [Separazione o divorzio](https://valorecasatua.it/casa-separazione-divorzio-lombardia/): gestione della casa coniugale.
+- [Comprare prima di vendere](https://valorecasatua.it/comprare-casa-prima-di-vendere/): strategie e tempistiche.
+- [Casa vuota o sfitta](https://valorecasatua.it/casa-vuota-sfitta-cosa-fare/): vendere o affittare.
+- [Trasferimento di lavoro](https://valorecasatua.it/trasferimento-lavoro-vendere-affittare-casa/): vendere o affittare in caso di trasloco.
+- [Pensione e cambio casa](https://valorecasatua.it/pensione-cambiare-casa/): ridimensionare o cambiare vita.
+- [Vendere casa ricevuta in donazione](https://valorecasatua.it/vendere-casa-ricevuta-in-donazione/): Legge 182/2025, rischi e documenti.
+
+## Strumenti
+- [Calcolatore del valore](https://valorecasatua.it/valuta/): stima orientativa gratuita su dati OMI, senza mediazione immobiliare. La homepage resta il punto di ingresso SEO su Milano e Lombardia.
+- [Verifica Casa](https://valorecasatua.it/verifica-casa/): check-up dei documenti e dello stato dell'immobile.
+- [Conviene ristrutturare?](https://valorecasatua.it/conviene-ristrutturare/): impatto della ristrutturazione sul valore.
+- [Quanto costa vendere casa](https://valorecasatua.it/quanto-costa-vendere-casa/): costi e netto della vendita.
+- [Classe energetica e valore](https://valorecasatua.it/classe-energetica-valore-casa/): APE e impatto sul prezzo.
+- [Affitto breve vs transitorio](https://valorecasatua.it/affitto-breve-vs-transitorio/): confronto contratti e redditività.
+- [Checklist documenti (PDF)](https://valorecasatua.it/checklist-documenti-vendere-casa/): i documenti per non bloccare il rogito.
+- [Centro risorse](https://valorecasatua.it/risorse/): hub guide e strumenti.
+
+## Guide prezzi OMI (€/m² per provincia)
+- [Indice guide Lombardia](https://valorecasatua.it/guide/)
+- [Milano](https://valorecasatua.it/guide/prezzi-mq-milano/)
+- [Brescia](https://valorecasatua.it/guide/prezzi-mq-brescia/)
+- [Bergamo](https://valorecasatua.it/guide/prezzi-mq-bergamo/)
+- [Treviglio](https://valorecasatua.it/guide/prezzi-mq-treviglio/): prezzi al m² OMI nella Bassa bergamasca.
+- [Como](https://valorecasatua.it/guide/prezzi-mq-como/)
+- [Varese](https://valorecasatua.it/guide/prezzi-mq-varese/)
+- [Monza e Brianza](https://valorecasatua.it/guide/prezzi-mq-monza-brianza/)
+- [Seregno](https://valorecasatua.it/guide/prezzi-mq-seregno/): prezzi al m² OMI e confronto Brianza.
+- [Vimercate](https://valorecasatua.it/guide/prezzi-mq-vimercate/): prezzi al m² OMI in prima cintura.
+- [Lecco](https://valorecasatua.it/guide/prezzi-mq-lecco/)
+- [Lodi](https://valorecasatua.it/guide/prezzi-mq-lodi/)
+- [Pavia](https://valorecasatua.it/guide/prezzi-mq-pavia/)
+- [Cremona](https://valorecasatua.it/guide/prezzi-mq-cremona/)
+- [Mantova](https://valorecasatua.it/guide/prezzi-mq-mantova/)
+- [Sondrio](https://valorecasatua.it/guide/prezzi-mq-sondrio/)
+- [Mercato immobiliare Lombardia 2026](https://valorecasatua.it/mercato-immobiliare-lombardia-2026/)
+- [Report OMI Lombardia 2026](https://valorecasatua.it/report-omi-lombardia-2026/): tabella citabile dei prezzi medi al m² dei 12 capoluoghi (Statistiche Regionali 2026).
+
+## Guide comunali (hinterland / alta domanda)
+- [Sesto San Giovanni](https://valorecasatua.it/guide/prezzi-mq-sesto-san-giovanni/): fasce OMI abitazioni civili, cintura nord-est Milano.
+- [Legnano](https://valorecasatua.it/guide/prezzi-mq-legnano/): fasce OMI, ovest milanese.
+- [Cinisello Balsamo](https://valorecasatua.it/guide/prezzi-mq-cinisello-balsamo/): fasce OMI, nord Milano.
+- [Rho](https://valorecasatua.it/guide/prezzi-mq-rho/): fasce OMI, ovest Milano.
+- [Lissone](https://valorecasatua.it/guide/prezzi-mq-lissone/): fasce OMI, Brianza.
+- [Paderno Dugnano](https://valorecasatua.it/guide/prezzi-mq-paderno-dugnano/): fasce OMI, cintura nord.
+- [Segrate](https://valorecasatua.it/guide/prezzi-mq-segrate/): fasce OMI, est Milano.
+- [Seregno](https://valorecasatua.it/guide/prezzi-mq-seregno/): fasce OMI e confronto Brianza.
+- [Vimercate](https://valorecasatua.it/guide/prezzi-mq-vimercate/): fasce OMI, prima cintura Brianza.
+- [Treviglio](https://valorecasatua.it/guide/prezzi-mq-treviglio/): fasce OMI, Bassa bergamasca.
+
+## Per la stampa
+- [Kit stampa Report OMI 2026](https://valorecasatua.it/per-la-stampa/): fact sheet, citazione, pitch email per redazioni.
+
+## Glossario
+- [Glossario immobiliare](https://valorecasatua.it/glossario/): definizioni di OMI, APE, plusvalenza, nuda proprietà e altri termini usati nelle guide.
+
+## Il progetto
+- [Il progetto ValoreCasaTua](https://valorecasatua.it/chi-siamo/): portale informativo su valore immobiliare in Lombardia, metodo OMI e strumenti gratuiti.
+
+## Informazioni legali
+- [Privacy](https://valorecasatua.it/privacy/): informativa sul trattamento dati (Formspree, WhatsApp, cookie).
+- [Cookie](https://valorecasatua.it/cookie/): policy cookie e servizi di terze parti.
+- Il sito non svolge attività di mediazione immobiliare tramite il brand ValoreCasaTua.it.
+
+## Aggiornamento
+- Pagine guide e strumenti allineate ai dati OMI 2026; revisione tecnica SEO 6 agosto 2026 (P1 A: glossario, OG situazioni, risposte rapide).
+- Editore: Maurizio Piraino (P.IVA 14597560961) — https://valorecasatua.it/chi-siamo/
+
+## Contatti
+- WhatsApp: +39 351 629 2353
+- Email: info@valorecasatua.it
+- Google Maps: https://maps.app.goo.gl/9ZDHXL64vUtwtAsX6
+- YouTube: https://www.youtube.com/@valorecasatua
+- Aree servite: tutte le 12 province della Lombardia.
+
+## File per assistenti AI
+- [ai.txt](https://valorecasatua.it/ai.txt): policy e punti di ingresso per motori generativi.
