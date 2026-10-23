@@ -604,7 +604,7 @@ async function submitForm(){
     window.__lastValuationPayload = payload;
     window.__lastFullAddress = fullAddress;
     window.__lastValuationData = {ok:false, code:'NETWORK_OR_ENGINE_ERROR', technical:String(err?.message||err)};
-    mostraErroreValutazione('Non siamo riusciti a completare la verifica in questo momento. Nessun valore è stato calcolato per evitare una stima poco affidabile.', {code:'NETWORK_OR_ENGINE_ERROR', technical:String(err?.message||err)});
+    mostraErroreValutazione('Non siamo riusciti a completare la verifica in questo momento. Nessun valore è stato calcolato per evitare un valore poco affidabile.', {code:'NETWORK_OR_ENGINE_ERROR', technical:String(err?.message||err)});
   }finally{
     btn.disabled=false;
     btn.innerHTML='<i class="fa-solid fa-magnifying-glass-chart"></i> Mostra il valore indicativo';
@@ -652,7 +652,7 @@ function mostraErroreValutazione(message, data){
   document.getElementById('resGreet').textContent='Dati ricevuti';
   document.getElementById('resRange').textContent='Indirizzo da verificare';
   document.getElementById('resMid').textContent='Non mostriamo un valore se la zona non è riconosciuta con sufficiente affidabilità.';
-  document.querySelector('.res-discl').innerHTML='<i class="fa-solid fa-circle-info"></i> Meglio nessun valore che una stima generica o poco attendibile.';
+  document.querySelector('.res-discl').innerHTML='<i class="fa-solid fa-circle-info"></i> Meglio nessun valore che un dato generico o poco attendibile.';
   document.getElementById('resMetrics').innerHTML=`
     <div class="rm"><div class="rm-l">Esito</div><div class="rm-v">Da verificare</div></div>
     <div class="rm"><div class="rm-l">Motivo</div><div class="rm-v">${escapeHtml(data?.code || 'zona non certa')}</div></div>
@@ -715,7 +715,7 @@ async function submitLeadRiepilogo(){
         ? `${fmt(valuation.result.vMin)} – ${fmt(valuation.result.vMax)}`
         : 'da approfondire';
       const zona = valuation?.zone?.name || payload.citta || '';
-      wa.href = `https://wa.me/393516292353?text=${encodeURIComponent(`Ciao, sono ${payload.nome}. Ho fatto una stima su ValoreCasaTua.it (${zona}: ${range}) e vorrei il quadro completo.`)}`;
+      wa.href = `https://wa.me/393516292353?text=${encodeURIComponent(`Ciao, sono ${payload.nome}. Ho calcolato il valore indicativo su ValoreCasaTua.it (${zona}: ${range}) e vorrei il quadro completo.`)}`;
     }
   }catch(err){
     console.error(err);
@@ -731,8 +731,8 @@ function escapeHtml(str){
 function mostraRisultato(r,nome){
   if (window.vctTrack) vctTrack('stima_result', { zona: (r.z && r.z.name) || '', v_mid: r.vMid || 0 });
   const greet = nome
-    ? `Ciao ${nome}! Ecco il valore stimato per il tuo immobile in zona ${r.z.name}.`
-    : `Ecco il valore stimato per il tuo immobile in zona ${r.z.name}.`;
+    ? `Ciao ${nome}! Ecco il valore indicativo del tuo immobile in zona ${r.z.name}.`
+    : `Ecco il valore indicativo del tuo immobile in zona ${r.z.name}.`;
   document.getElementById('resGreet').textContent=greet;
   const leadAfter=document.getElementById('leadAfter');
   if(leadAfter) leadAfter.style.display='block';
@@ -745,13 +745,13 @@ function mostraRisultato(r,nome){
   const btnLead=document.getElementById('btnLead');
   if(btnLead){ btnLead.disabled=false; btnLead.style.display=''; }
   document.getElementById('resRange').textContent=`${fmt(r.vMin)} – ${fmt(r.vMax)}`;
-  document.getElementById('resMid').textContent='Valore stimato: '+fmt(r.vMid);
+  document.getElementById('resMid').textContent='Valore indicativo: '+fmt(r.vMid);
   document.querySelector('.res-discl').innerHTML='<i class="fa-solid fa-circle-info"></i> Elaborazione automatica a fini informativi, basata su indirizzo riconosciuto, zona territoriale e dati inseriti.';
   document.getElementById('resMetrics').innerHTML=`
     <div class="rm"><div class="rm-l">Prezzo al m²</div><div class="rm-v">${fmtK(r.pMq)} €/mq</div></div>
     <div class="rm"><div class="rm-l">Zona</div><div class="rm-v">${escapeHtml(r.z.code||'rilevata')}</div></div>
     <div class="rm"><div class="rm-l">Fonte dati</div><div class="rm-v">${escapeHtml(r.dataSource||'territoriale')}</div></div>`;
-  const waMsg=encodeURIComponent(`Ciao, ho fatto una stima su ValoreCasaTua.it per un immobile in zona ${r.z.name}: ${fmt(r.vMin)} – ${fmt(r.vMax)}. Vorrei il quadro completo sui numeri.`);
+  const waMsg=encodeURIComponent(`Ciao, ho calcolato il valore indicativo su ValoreCasaTua.it per un immobile in zona ${r.z.name}: ${fmt(r.vMin)} – ${fmt(r.vMax)}. Vorrei il quadro completo sui numeri.`);
   document.getElementById('waBtn').href=`https://wa.me/393516292353?text=${waMsg}`;
   const body=document.querySelector('.fc-body');
   if(body) body.style.display='none';
@@ -766,8 +766,8 @@ function mostraRisultato(r,nome){
 function generaRiepilogo(r,nome){
   const box=document.getElementById('aiContent');
   box.innerHTML=`
-    <p>Il valore stimato è stato calcolato solo dopo il riconoscimento dell’indirizzo e l’associazione a una zona territoriale di riferimento. La fascia ottenuta è ${fmt(r.vMin)} – ${fmt(r.vMax)}, con valore centrale pari a ${fmt(r.vMid)}.</p>
-    <p>La stima tiene conto della superficie inserita (${r.mq} mq), della tipologia, dello stato dell’immobile e dei principali elementi dichiarati: piano, ascensore, classe energetica, spazi esterni e pertinenze.</p>
+    <p>Il valore indicativo è stato calcolato solo dopo il riconoscimento dell’indirizzo e l’associazione a una zona territoriale di riferimento. La fascia ottenuta è ${fmt(r.vMin)} – ${fmt(r.vMax)}, con valore centrale pari a ${fmt(r.vMid)}.</p>
+    <p>Il calcolo tiene conto della superficie inserita (${r.mq} mq), della tipologia, dello stato dell’immobile e dei principali elementi dichiarati: piano, ascensore, classe energetica, spazi esterni e pertinenze.</p>
     <p>Il valore finale può variare dopo verifiche su stato reale, esposizione, documentazione, pertinenze e confronto con immobili simili effettivamente presenti nella stessa area.</p>`;
 }
 

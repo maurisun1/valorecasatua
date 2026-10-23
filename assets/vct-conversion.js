@@ -26,7 +26,7 @@
     "/casa-separazione-divorzio-lombardia": "Ciao, vorrei un orientamento su valore e scenari della casa in separazione.",
     "/casa-ereditata-divisione-eredi-lombardia": "Ciao, vorrei un orientamento su casa ereditata e divisione tra eredi.",
     "/vendere-casa-da-soli": "Ciao, vorrei capire se sto vendendo al valore giusto da solo.",
-    "/": "Ciao, vorrei una stima orientativa del valore della mia casa."
+    "/": "Ciao, vorrei il valore indicativo della mia casa."
   };
 
   function navConfig() {
