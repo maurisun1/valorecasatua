@@ -1836,6 +1836,25 @@ section.faq#faq .faq-list{margin:0;max-width:none}
 <script src="/assets/vct-track.js" defer></script>
 <script src="/assets/vct-conversion.js?v=20260802c" defer></script>
 <script src="/assets/vct-ab.js?v=20260802d" defer></script>
+<style id="vct-map-teaser">
+#zoneCollapse.map-teaser-wrap{border:0;background:none}
+#zoneCollapse>summary.map-teaser{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;max-width:1000px;margin:0 auto;padding:30px 34px;background:#fff;border:1px solid rgba(12,35,52,.10);border-radius:24px;box-shadow:0 18px 50px rgba(12,35,52,.10);transition:box-shadow .2s,transform .2s}
+#zoneCollapse>summary.map-teaser::-webkit-details-marker{display:none}
+#zoneCollapse>summary.map-teaser::after{display:none!important;content:none!important}
+#zoneCollapse>summary.map-teaser:hover{transform:translateY(-2px);box-shadow:0 24px 60px rgba(12,35,52,.14)}
+.map-teaser .mt-copy{display:flex;flex-direction:column;gap:10px;text-align:left}
+.map-teaser .mt-eye{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#a67c1a}
+.map-teaser .mt-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,3vw,34px);line-height:1.15;color:#0c2334;font-weight:700}
+.map-teaser .mt-sub{font-size:16px;line-height:1.6;color:rgba(26,46,59,.78)}
+.map-teaser .mt-btn{align-self:flex-start;margin-top:8px;background:#2f9488;color:#fff;font-weight:800;padding:13px 22px;border-radius:999px;box-shadow:0 10px 24px rgba(15,92,84,.28)}
+.map-teaser .mt-close{display:none}
+#zoneCollapse[open] .mt-open{display:none}
+#zoneCollapse[open] .mt-close{display:inline}
+.map-teaser .mt-map img{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 22px rgba(12,35,52,.12))}
+#zoneCollapse[open]>summary.map-teaser{grid-template-columns:1fr;margin-bottom:22px}
+#zoneCollapse[open] .mt-map{display:none}
+@media(max-width:760px){#zoneCollapse>summary.map-teaser{grid-template-columns:1fr;padding:24px 20px;gap:18px}.map-teaser .mt-map{order:-1;max-width:300px;margin:0 auto}.map-teaser .mt-btn{align-self:stretch;text-align:center}}
+</style>
 </head>
 <body>
 
@@ -2246,7 +2265,7 @@ section.faq#faq .faq-list{margin:0;max-width:none}
 
 <!-- MAPPA -->
 <section class="map-section" id="zone">
-<details class="vct-collapse" id="zoneCollapse"><summary>Consulta i valori OMI in Lombardia <span style="font-weight:600;color:rgba(26,46,59,.55);font-size:14px">mappa e province</span></summary><div class="vct-collapse-body">
+<details class="vct-collapse map-teaser-wrap" id="zoneCollapse"><summary class="map-teaser"><span class="mt-copy"><span class="mt-eye">Mappa interattiva · dati OMI 2026</span><span class="mt-title">Quanto costa un m² nella tua zona?</span><span class="mt-sub">12 province lombarde, zona per zona. Tocca un'area e vedi il valore di riferimento.</span><span class="mt-btn"><span class="mt-open">Apri la mappa dei prezzi →</span><span class="mt-close">Chiudi la mappa ↑</span></span></span><span class="mt-map"><img src="/assets/mappa-lombardia-preview.svg" alt="Anteprima della mappa dei prezzi al m² nelle province lombarde" width="420" height="400" loading="lazy" decoding="async"></span></summary><div class="vct-collapse-body">
   <span class="section-eye">Valori per area</span>
   <h2 class="section-title" style="margin-bottom:12px">Consulta i valori di riferimento in Lombardia</h2>
   <p style="max-width:760px;margin:0 auto 22px;text-align:center;color:var(--muted);line-height:1.7">Seleziona una provincia: la mappa e le card si aggiornano con le aree disponibili.</p>
