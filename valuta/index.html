@@ -2003,7 +2003,7 @@ section.faq#faq .faq-list{margin:0;max-width:none}
 <link rel="stylesheet" href="/assets/vct-conversion.css?v=20260808a">
 <script src="/assets/vct-consent.js?v=20261019ck" defer></script>
 <script src="/assets/vct-track.js" defer></script>
-<script src="/assets/vct-conversion.js?v=20260802c" defer></script>
+<script src="/assets/vct-conversion.js?v=20261024a" defer></script>
 <script src="/assets/vct-ab.js?v=20260802d" defer></script>
 
 <style id="vct-home-convert">
@@ -2188,6 +2188,7 @@ body.valuta-lp{background:#0b1d2c}
   .valuta-how{flex-direction:column}
 }
 </style>
+<style id="vct-osm-tone">.vct-osm-tiles{filter:grayscale(.9) brightness(1.06) contrast(.92) sepia(.08)}</style>
 </head>
 <body class="valuta-lp">
 
@@ -3556,8 +3557,8 @@ async function initMapWhenReady(){
       window.__vctMapStarted=true;
       mapInst=L.map('map',{center:[45.65,9.90],zoom:8.5,zoomControl:false,scrollWheelZoom:false});
       L.control.zoom({position:'topright'}).addTo(mapInst);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{attribution:'© OSM © CARTO',subdomains:'abcd',maxZoom:19}).addTo(mapInst);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{attribution:'',subdomains:'abcd',maxZoom:19,pane:'overlayPane'}).addTo(mapInst);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',maxZoom:19,className:'vct-osm-tiles'}).addTo(mapInst);
+      
       const geo=await loadGeo();
       if(geo){geoLayer=L.geoJSON(geo,{style:styleProv,onEachFeature:(f,layer)=>{layer.on({mouseover(){this.setStyle({fillOpacity:0.85,weight:2.5,color:'white'});this.bringToFront();},mouseout(){geoLayer.resetStyle(this);}});}}).addTo(mapInst);}
       renderMarkers();
@@ -3805,7 +3806,7 @@ async function initMapWhenReady(){
   else bindWa();
 })();
 </script>
-<script src="/assets/site-search.js" defer></script>
+<script src="/assets/site-search.js?v=20261024a" defer></script>
 
 <script id="visual-engage-js">
 (function(){

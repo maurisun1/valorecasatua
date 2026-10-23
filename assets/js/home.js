@@ -906,8 +906,8 @@ async function initMapWhenReady(){
       window.__vctMapStarted=true;
       mapInst=L.map('map',{center:[45.65,9.90],zoom:8.5,zoomControl:false,scrollWheelZoom:false});
       L.control.zoom({position:'topright'}).addTo(mapInst);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',{attribution:'© OSM © CARTO',subdomains:'abcd',maxZoom:19}).addTo(mapInst);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png',{attribution:'',subdomains:'abcd',maxZoom:19,pane:'overlayPane'}).addTo(mapInst);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>',maxZoom:19,className:'vct-osm-tiles'}).addTo(mapInst);
+      
       const geo=await loadGeo();
       if(geo){geoLayer=L.geoJSON(geo,{style:styleProv,onEachFeature:(f,layer)=>{layer.on({mouseover(){this.setStyle({fillOpacity:0.85,weight:2.5,color:'white'});this.bringToFront();},mouseout(){geoLayer.resetStyle(this);}});}}).addTo(mapInst);}
       renderMarkers();
