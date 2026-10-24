@@ -21,6 +21,10 @@
   to = "/.netlify/functions/valuation"
   status = 200
 [[redirects]]
+  from = "/api/maps-config"
+  to = "/.netlify/functions/maps-config"
+  status = 200
+[[redirects]]
   from = "/api/places"
   to = "/.netlify/functions/places"
   status = 200
