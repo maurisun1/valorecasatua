@@ -111,6 +111,46 @@
     });
   }
 
+
+  // Invio form Formspree senza lasciare la pagina: conferma chiara + WhatsApp + evento GA4
+  function ajaxForms() {
+    document.querySelectorAll('form[action*="formspree.io"]').forEach(function (form) {
+      var next = form.querySelector('input[name="_next"]');
+      if (next && /grazie-checklist/.test(next.value)) return; // la checklist ha la sua pagina di conferma
+      form.addEventListener("submit", function (e) {
+        if (!window.fetch || !window.FormData) return;
+        e.preventDefault();
+        var btn = form.querySelector('button[type="submit"], input[type="submit"]');
+        var label = btn ? btn.innerHTML : "";
+        if (btn) { btn.disabled = true; btn.innerHTML = "Invio in corso…"; }
+        var data = new FormData(form);
+        var origine = (data.get("origine") || form.getAttribute("name") || "form").toString();
+        var nome = (data.get("nome") || "").toString().split(" ")[0];
+        fetch(form.action, { method: "POST", body: data, headers: { Accept: "application/json" } })
+          .then(function (r) {
+            if (!r.ok) throw new Error("http " + r.status);
+            if (typeof window.vctTrack === "function") window.vctTrack("lead_submit_success", { form_id: origine });
+            var wa = "https://wa.me/393516292353?text=" + encodeURIComponent("Ciao, sono " + (nome || "") + ". Ho appena inviato una richiesta da ValoreCasaTua.it (" + origine + ").");
+            var box = document.createElement("div");
+            box.className = "vct-thanks";
+            box.setAttribute("role", "status");
+            box.innerHTML = '<p style="font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#1a7a6f;margin:0 0 8px">Richiesta ricevuta</p>' +
+              '<h3 style="margin:0 0 10px;font-size:1.4rem;color:#0c2334">Grazie' + (nome ? " " + nome.replace(/[<>&"]/g, "") : "") + ', ti rispondiamo entro 24 ore lavorative.</h3>' +
+              '<p style="margin:0 0 16px;color:#1a2e3b;line-height:1.6">Ti scriviamo su WhatsApp o per email con il riepilogo. Se vuoi fare prima, scrivici tu adesso.</p>' +
+              '<a href="' + wa + '" target="_blank" rel="noopener" class="vct-lead-btn" style="display:inline-block;background:#25D366;color:#fff">Scrivici su WhatsApp →</a>';
+            box.style.cssText = "background:#fff;border:1px solid rgba(26,122,111,.35);border-radius:18px;padding:26px 24px;box-shadow:0 10px 30px rgba(12,35,52,.10)";
+            form.parentNode.replaceChild(box, form);
+            box.scrollIntoView({ behavior: "smooth", block: "center" });
+          })
+          .catch(function () {
+            if (btn) { btn.disabled = false; btn.innerHTML = label; }
+            if (typeof window.vctTrack === "function") window.vctTrack("lead_submit_error", { form_id: origine });
+            alert("Invio non riuscito. Riprova oppure scrivici su WhatsApp al 351 629 2353.");
+          });
+      });
+    });
+  }
+
   function ready(fn) {
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn);
     else fn();
@@ -121,6 +161,7 @@
     enhanceWhatsApp();
     trackClicks();
     trackForms();
+    ajaxForms();
     if (typeof window.vctTrack === "function") {
       window.vctTrack("page_context", { tool_path: path });
     }
