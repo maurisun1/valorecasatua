@@ -17,3 +17,7 @@
 /mercato-lombardia    /mercato-immobiliare-lombardia-2026/   301
 
 # Soft-duplicate homepage (force: sovrascrive il file statico)
+
+# Piano di marketing spostato su mauriziopiraino.it (31/10/2026)
+/piano-di-marketing-vendere-casa   https://mauriziopiraino.it/vendere-casa/piano-di-marketing/  301!
+/piano-di-marketing-vendere-casa/  https://mauriziopiraino.it/vendere-casa/piano-di-marketing/  301!
