@@ -10,10 +10,10 @@
     "/conviene-ristrutturare": { text: "Scopri se conviene", href: "#calcolatore" },
     "/affitto-breve-vs-transitorio": { text: "Calcola rendimento", href: "#calcolatore" },
     "/checklist-documenti-vendere-casa": { text: "Scarica la checklist", href: "#form" },
-    "/classe-energetica-valore-casa": { text: "Valuta gratis", href: "/#form" },
+    "/classe-energetica-valore-casa": { text: "Calcola il valore", href: "/#form" },
     "/vendere-casa-ricevuta-in-donazione": { text: "Verifica situazione", href: "#form" },
-    "/risorse": { text: "Valuta gratis", href: "/#form" },
-    "/": { text: "Valuta gratis", href: "#form" }
+    "/risorse": { text: "Calcola il valore", href: "/#form" },
+    "/": { text: "Calcola il valore", href: "#form" }
   };
 
   var WA_MSG = {
@@ -31,11 +31,11 @@
 
   function navConfig() {
     if (NAV[path]) return NAV[path];
-    if (path.indexOf("/guide/") === 0) return { text: "Valuta gratis", href: "/#form" };
+    if (path.indexOf("/guide/") === 0) return { text: "Calcola il valore", href: "/#form" };
     if (document.querySelector("#form, .vct-lead-section form, form.lead-form")) {
-      return { text: "Ricevi orientamento", href: "#form" };
+      return { text: "Voglio l'analisi di mercato", href: "#form" };
     }
-    return { text: "Valuta gratis", href: "/#form" };
+    return { text: "Calcola il valore", href: "/#form" };
   }
 
   function waMessage() {

@@ -1,0 +1,1055 @@
+{
+ "fonte": "Agenzia Entrate - OMI",
+ "semestre": "2026/1",
+ "elaborazione": "18/10/2026",
+ "convenzione": "Abitazioni civili, €/m². min = valore più basso in stato NORMALE; max = valore più alto in stato OTTIMO; mediana = mediana dei valori centrali delle zone.",
+ "province": {
+  "MI": {
+   "nome": "Milano (città metropolitana e Monza e Brianza, codifica OMI)",
+   "tutta": {
+    "min": 800,
+    "max": 16000,
+    "mediana": 1962,
+    "zone": 356
+   },
+   "capoluogo": {
+    "min": 1900,
+    "max": 16000,
+    "mediana": 5025,
+    "zone": 42
+   },
+   "resto_provincia": {
+    "min": 800,
+    "max": 5500,
+    "mediana": 1875,
+    "zone": 314
+   }
+  },
+  "BG": {
+   "nome": "Bergamo",
+   "tutta": {
+    "min": 580,
+    "max": 4300,
+    "mediana": 1095,
+    "zone": 393
+   },
+   "capoluogo": {
+    "min": 1400,
+    "max": 4300,
+    "mediana": 2012,
+    "zone": 22
+   },
+   "resto_provincia": {
+    "min": 580,
+    "max": 3200,
+    "mediana": 1055,
+    "zone": 371
+   }
+  },
+  "BS": {
+   "nome": "Brescia",
+   "tutta": {
+    "min": 560,
+    "max": 8100,
+    "mediana": 1325,
+    "zone": 418
+   },
+   "capoluogo": {
+    "min": 1250,
+    "max": 4300,
+    "mediana": 1900,
+    "zone": 23
+   },
+   "resto_provincia": {
+    "min": 560,
+    "max": 8100,
+    "mediana": 1300,
+    "zone": 395
+   }
+  },
+  "CO": {
+   "nome": "Como",
+   "tutta": {
+    "min": 500,
+    "max": 6000,
+    "mediana": 1350,
+    "zone": 240
+   },
+   "capoluogo": {
+    "min": 1250,
+    "max": 6000,
+    "mediana": 2387,
+    "zone": 14
+   },
+   "resto_provincia": {
+    "min": 500,
+    "max": 4100,
+    "mediana": 1312,
+    "zone": 226
+   }
+  },
+  "CR": {
+   "nome": "Cremona",
+   "tutta": {
+    "min": 300,
+    "max": 3200,
+    "mediana": 650,
+    "zone": 263
+   },
+   "capoluogo": {
+    "min": 700,
+    "max": 2550,
+    "mediana": 1425,
+    "zone": 14
+   },
+   "resto_provincia": {
+    "min": 300,
+    "max": 3200,
+    "mediana": 650,
+    "zone": 249
+   }
+  },
+  "LC": {
+   "nome": "Lecco",
+   "tutta": {
+    "min": 750,
+    "max": 2900,
+    "mediana": 1250,
+    "zone": 181
+   },
+   "capoluogo": {
+    "min": 1100,
+    "max": 2900,
+    "mediana": 1750,
+    "zone": 12
+   },
+   "resto_provincia": {
+    "min": 750,
+    "max": 2700,
+    "mediana": 1225,
+    "zone": 169
+   }
+  },
+  "LO": {
+   "nome": "Lodi",
+   "tutta": {
+    "min": 630,
+    "max": 3000,
+    "mediana": 1160,
+    "zone": 140
+   },
+   "capoluogo": {
+    "min": 1250,
+    "max": 3000,
+    "mediana": 1950,
+    "zone": 6
+   },
+   "resto_provincia": {
+    "min": 630,
+    "max": 2300,
+    "mediana": 1140,
+    "zone": 134
+   }
+  },
+  "MN": {
+   "nome": "Mantova",
+   "tutta": {
+    "min": 350,
+    "max": 2900,
+    "mediana": 650,
+    "zone": 209
+   },
+   "capoluogo": {
+    "min": 550,
+    "max": 2900,
+    "mediana": 1350,
+    "zone": 13
+   },
+   "resto_provincia": {
+    "min": 350,
+    "max": 2200,
+    "mediana": 625,
+    "zone": 196
+   }
+  },
+  "PV": {
+   "nome": "Pavia",
+   "tutta": {
+    "min": 500,
+    "max": 4300,
+    "mediana": 970,
+    "zone": 223
+   },
+   "capoluogo": {
+    "min": 1200,
+    "max": 4300,
+    "mediana": 2225,
+    "zone": 7
+   },
+   "resto_provincia": {
+    "min": 500,
+    "max": 2550,
+    "mediana": 955,
+    "zone": 216
+   }
+  },
+  "SO": {
+   "nome": "Sondrio",
+   "tutta": {
+    "min": 650,
+    "max": 10700,
+    "mediana": 1150,
+    "zone": 230
+   },
+   "capoluogo": {
+    "min": 900,
+    "max": 2350,
+    "mediana": 1625,
+    "zone": 9
+   },
+   "resto_provincia": {
+    "min": 650,
+    "max": 10700,
+    "mediana": 1150,
+    "zone": 221
+   }
+  },
+  "VA": {
+   "nome": "Varese",
+   "tutta": {
+    "min": 800,
+    "max": 3200,
+    "mediana": 1225,
+    "zone": 354
+   },
+   "capoluogo": {
+    "min": 900,
+    "max": 3200,
+    "mediana": 1675,
+    "zone": 13
+   },
+   "resto_provincia": {
+    "min": 800,
+    "max": 2850,
+    "mediana": 1200,
+    "zone": 341
+   }
+  }
+ },
+ "comuni": {
+  "milano": {
+   "comune": "Milano",
+   "prov": "MI",
+   "min": 1900,
+   "max": 16000,
+   "mediana": 5025,
+   "zone": 42
+  },
+  "bergamo": {
+   "comune": "Bergamo",
+   "prov": "BG",
+   "min": 1400,
+   "max": 4300,
+   "mediana": 2012,
+   "zone": 22
+  },
+  "brescia": {
+   "comune": "Brescia",
+   "prov": "BS",
+   "min": 1250,
+   "max": 4300,
+   "mediana": 1900,
+   "zone": 23
+  },
+  "como": {
+   "comune": "Como",
+   "prov": "CO",
+   "min": 1250,
+   "max": 6000,
+   "mediana": 2387,
+   "zone": 14
+  },
+  "cremona": {
+   "comune": "Cremona",
+   "prov": "CR",
+   "min": 700,
+   "max": 2550,
+   "mediana": 1425,
+   "zone": 14
+  },
+  "lecco": {
+   "comune": "Lecco",
+   "prov": "LC",
+   "min": 1100,
+   "max": 2900,
+   "mediana": 1750,
+   "zone": 12
+  },
+  "lodi": {
+   "comune": "Lodi",
+   "prov": "LO",
+   "min": 1250,
+   "max": 3000,
+   "mediana": 1950,
+   "zone": 6
+  },
+  "mantova": {
+   "comune": "Mantova",
+   "prov": "MN",
+   "min": 550,
+   "max": 2900,
+   "mediana": 1350,
+   "zone": 13
+  },
+  "monza-brianza": {
+   "comune": "Monza",
+   "prov": "MI",
+   "min": 1700,
+   "max": 5500,
+   "mediana": 2975,
+   "zone": 9
+  },
+  "pavia": {
+   "comune": "Pavia",
+   "prov": "PV",
+   "min": 1200,
+   "max": 4300,
+   "mediana": 2225,
+   "zone": 7
+  },
+  "sondrio": {
+   "comune": "Sondrio",
+   "prov": "SO",
+   "min": 900,
+   "max": 2350,
+   "mediana": 1625,
+   "zone": 9
+  },
+  "varese": {
+   "comune": "Varese",
+   "prov": "VA",
+   "min": 900,
+   "max": 3200,
+   "mediana": 1675,
+   "zone": 13
+  },
+  "seregno": {
+   "comune": "Seregno",
+   "prov": "MI",
+   "min": 2050,
+   "max": 3300,
+   "mediana": 2612,
+   "zone": 2
+  },
+  "vimercate": {
+   "comune": "Vimercate",
+   "prov": "MI",
+   "min": 1550,
+   "max": 3300,
+   "mediana": 2400,
+   "zone": 3
+  },
+  "treviglio": {
+   "comune": "Treviglio",
+   "prov": "BG",
+   "min": 1100,
+   "max": 2500,
+   "mediana": 1625,
+   "zone": 6
+  },
+  "sesto-san-giovanni": {
+   "comune": "Sesto San Giovanni",
+   "prov": "MI",
+   "min": 2000,
+   "max": 3900,
+   "mediana": 2875,
+   "zone": 2
+  },
+  "legnano": {
+   "comune": "Legnano",
+   "prov": "MI",
+   "min": 1300,
+   "max": 3300,
+   "mediana": 1950,
+   "zone": 4
+  },
+  "cinisello-balsamo": {
+   "comune": "Cinisello Balsamo",
+   "prov": "MI",
+   "min": 1700,
+   "max": 3100,
+   "mediana": 2337,
+   "zone": 2
+  },
+  "rho": {
+   "comune": "Rho",
+   "prov": "MI",
+   "min": 1850,
+   "max": 3300,
+   "mediana": 2450,
+   "zone": 2
+  },
+  "lissone": {
+   "comune": "Lissone",
+   "prov": "MI",
+   "min": 1450,
+   "max": 2900,
+   "mediana": 2225,
+   "zone": 3
+  },
+  "paderno-dugnano": {
+   "comune": "Paderno Dugnano",
+   "prov": "MI",
+   "min": 1650,
+   "max": 3200,
+   "mediana": 2425,
+   "zone": 2
+  },
+  "segrate": {
+   "comune": "Segrate",
+   "prov": "MI",
+   "min": 1800,
+   "max": 4400,
+   "mediana": 3150,
+   "zone": 5
+  }
+ },
+ "milano": {
+  "min": 1900,
+  "max": 16000,
+  "mediana": 5025,
+  "zone": 42,
+  "zona_min": "QUARTO OGGIARO, SACCO",
+  "zona_max": "CENTRO STORICO - BRERA",
+  "centro_fascia_B": {
+   "min": 5100,
+   "max": 16000,
+   "mediana": 9200,
+   "zone": 9
+  },
+  "zone_dettaglio": [
+   {
+    "code": "B15",
+    "nome": "CENTRO STORICO - BRERA",
+    "fascia": "B",
+    "min": 9800,
+    "max": 16000,
+    "normale": [
+     9800,
+     12500
+    ],
+    "ottimo": [
+     12600,
+     16000
+    ]
+   },
+   {
+    "code": "C14",
+    "nome": "PORTA NUOVA",
+    "fascia": "C",
+    "min": 5000,
+    "max": 15700,
+    "normale": [
+     5000,
+     7000
+    ],
+    "ottimo": [
+     10500,
+     15700
+    ]
+   },
+   {
+    "code": "B12",
+    "nome": "CENTRO STORICO -DUOMO, SANBABILA, MONTENAPOLEONE, MISSORI, CAIROLI",
+    "fascia": "B",
+    "min": 8700,
+    "max": 15500,
+    "normale": [
+     8700,
+     11400
+    ],
+    "ottimo": [
+     11500,
+     15500
+    ]
+   },
+   {
+    "code": "B16",
+    "nome": "CENTRO STORICO -SANT'AMBROGIO, CADORNA, VIA DANTE",
+    "fascia": "B",
+    "min": 7000,
+    "max": 14000,
+    "normale": [
+     7000,
+     9400
+    ],
+    "ottimo": [
+     9500,
+     14000
+    ]
+   },
+   {
+    "code": "B18",
+    "nome": "TURATI, MOSCOVA, CORSO VENEZIA",
+    "fascia": "B",
+    "min": 6700,
+    "max": 13200,
+    "ottimo": [
+     9300,
+     13200
+    ],
+    "normale": [
+     6700,
+     9200
+    ]
+   },
+   {
+    "code": "B17",
+    "nome": "PARCO SEMPIONE, ARCO DELLA PACE, CORSO MAGENTA",
+    "fascia": "B",
+    "min": 5800,
+    "max": 12500,
+    "normale": [
+     5800,
+     8200
+    ],
+    "ottimo": [
+     8300,
+     12500
+    ]
+   },
+   {
+    "code": "C13",
+    "nome": "CITY LIFE",
+    "fascia": "C",
+    "min": 8300,
+    "max": 12500,
+    "ottimo": [
+     8300,
+     12500
+    ]
+   },
+   {
+    "code": "B19",
+    "nome": "VENEZIA, PORTA VITTORIA, PORTA ROMANA",
+    "fascia": "B",
+    "min": 6400,
+    "max": 12000,
+    "normale": [
+     6400,
+     8900
+    ],
+    "ottimo": [
+     9000,
+     12000
+    ]
+   },
+   {
+    "code": "C17",
+    "nome": "SEMPIONE, PAGANO, WASHINGTON",
+    "fascia": "C",
+    "min": 5500,
+    "max": 11000,
+    "ottimo": [
+     7100,
+     11000
+    ],
+    "normale": [
+     5500,
+     7000
+    ]
+   },
+   {
+    "code": "B13",
+    "nome": "CENTRO STORICO -UNIVERSITA STATALE, SAN LORENZO",
+    "fascia": "B",
+    "min": 7000,
+    "max": 11000,
+    "normale": [
+     7000,
+     9000
+    ],
+    "ottimo": [
+     9100,
+     11000
+    ]
+   },
+   {
+    "code": "C12",
+    "nome": "PISANI, BUENOS AIRES, REGINA GIOVANNA",
+    "fascia": "C",
+    "min": 5800,
+    "max": 10200,
+    "ottimo": [
+     7300,
+     10200
+    ],
+    "normale": [
+     5800,
+     7200
+    ]
+   },
+   {
+    "code": "C20",
+    "nome": "LIBIA, XXII MARZO, INDIPENDENZA",
+    "fascia": "C",
+    "min": 4900,
+    "max": 10000,
+    "normale": [
+     4900,
+     6900
+    ],
+    "ottimo": [
+     7000,
+     10000
+    ]
+   },
+   {
+    "code": "B20",
+    "nome": "PORTA VIGENTINA, PORTA ROMANA",
+    "fascia": "B",
+    "min": 5200,
+    "max": 9600,
+    "ottimo": [
+     7300,
+     9600
+    ],
+    "normale": [
+     5200,
+     7200
+    ]
+   },
+   {
+    "code": "B21",
+    "nome": "PORTA TICINESE, PORTA GENOVA, VIA SAN VITTORE",
+    "fascia": "B",
+    "min": 5100,
+    "max": 9200,
+    "ottimo": [
+     7100,
+     9200
+    ],
+    "normale": [
+     5100,
+     7000
+    ]
+   },
+   {
+    "code": "C16",
+    "nome": "CENISIO, FARINI, SARPI",
+    "fascia": "C",
+    "min": 4200,
+    "max": 9000,
+    "ottimo": [
+     6500,
+     9000
+    ],
+    "normale": [
+     4200,
+     6400
+    ]
+   },
+   {
+    "code": "C19",
+    "nome": "TABACCHI, SARFATTI, CREMA",
+    "fascia": "C",
+    "min": 4400,
+    "max": 9000,
+    "ottimo": [
+     6500,
+     9000
+    ],
+    "normale": [
+     4400,
+     6400
+    ]
+   },
+   {
+    "code": "C18",
+    "nome": "SOLARI, P.TA GENOVA, ASCANIO SFORZA",
+    "fascia": "C",
+    "min": 4600,
+    "max": 8700,
+    "ottimo": [
+     6600,
+     8700
+    ],
+    "normale": [
+     4600,
+     6500
+    ]
+   },
+   {
+    "code": "D12",
+    "nome": "PIOLA, ARGONNE, CORSICA",
+    "fascia": "D",
+    "min": 3900,
+    "max": 8000,
+    "ottimo": [
+     5600,
+     8000
+    ],
+    "normale": [
+     3900,
+     5500
+    ]
+   },
+   {
+    "code": "C15",
+    "nome": "STAZIONE CENTRALE VIALE STELVIO",
+    "fascia": "C",
+    "min": 4100,
+    "max": 7800,
+    "normale": [
+     4100,
+     5800
+    ],
+    "ottimo": [
+     5900,
+     7800
+    ]
+   },
+   {
+    "code": "D36",
+    "nome": "MAGGIOLINA, PARCO TROTTER, LEONCAVALLO",
+    "fascia": "D",
+    "min": 3500,
+    "max": 6700,
+    "ottimo": [
+     4600,
+     6700
+    ],
+    "normale": [
+     3500,
+     4500
+    ]
+   },
+   {
+    "code": "D24",
+    "nome": "SEGESTA, ARETUSA, VESPRI SICILIANI",
+    "fascia": "D",
+    "min": 3600,
+    "max": 6500,
+    "ottimo": [
+     4500,
+     6500
+    ],
+    "normale": [
+     3600,
+     4400
+    ]
+   },
+   {
+    "code": "D16",
+    "nome": "TITO LIVIO, TERTULLIANO, LONGANESI, ORTOMERCATO",
+    "fascia": "D",
+    "min": 3500,
+    "max": 6500,
+    "ottimo": [
+     4300,
+     6500
+    ],
+    "normale": [
+     3500,
+     4200
+    ]
+   },
+   {
+    "code": "D20",
+    "nome": "ORTLES, SPADOLINI, BAZZI",
+    "fascia": "D",
+    "min": 3500,
+    "max": 6000,
+    "ottimo": [
+     4600,
+     6000
+    ],
+    "normale": [
+     3500,
+     4500
+    ]
+   },
+   {
+    "code": "D18",
+    "nome": "MAROCCHETTI, VIGENTINO, CHIESA ROSSA",
+    "fascia": "D",
+    "min": 2750,
+    "max": 5600,
+    "ottimo": [
+     4200,
+     5600
+    ],
+    "normale": [
+     2750,
+     4100
+    ]
+   },
+   {
+    "code": "D28",
+    "nome": "IPPODROMO, CAPRILLI, MONTE STELLA",
+    "fascia": "D",
+    "min": 3400,
+    "max": 5600,
+    "ottimo": [
+     4500,
+     5600
+    ],
+    "normale": [
+     3400,
+     4400
+    ]
+   },
+   {
+    "code": "D39",
+    "nome": "CASCINA MERLATA, EXPO",
+    "fascia": "D",
+    "min": 3800,
+    "max": 5600,
+    "ottimo": [
+     3800,
+     5600
+    ]
+   },
+   {
+    "code": "D35",
+    "nome": "MONZA, CRESCENZAGO, GORLA, QUARTIERE ADRIANO",
+    "fascia": "D",
+    "min": 2950,
+    "max": 5500,
+    "ottimo": [
+     4300,
+     5500
+    ],
+    "normale": [
+     2950,
+     4200
+    ]
+   },
+   {
+    "code": "D13",
+    "nome": "LAMBRATE, RUBATTINO, ROMBON",
+    "fascia": "D",
+    "min": 3100,
+    "max": 5400,
+    "ottimo": [
+     4200,
+     5400
+    ],
+    "normale": [
+     3100,
+     4100
+    ]
+   },
+   {
+    "code": "D10",
+    "nome": "PARCO LAMBRO, FELTRE, UDINE",
+    "fascia": "D",
+    "min": 3000,
+    "max": 5400,
+    "ottimo": [
+     4300,
+     5400
+    ],
+    "normale": [
+     3000,
+     4200
+    ]
+   },
+   {
+    "code": "D31",
+    "nome": "BOVISA, BAUSAN, IMBONATI",
+    "fascia": "D",
+    "min": 2900,
+    "max": 5300,
+    "ottimo": [
+     4300,
+     5300
+    ],
+    "normale": [
+     2900,
+     4200
+    ]
+   },
+   {
+    "code": "D21",
+    "nome": "BARONA, FAMAGOSTA, FAENZA",
+    "fascia": "D",
+    "min": 2900,
+    "max": 5100,
+    "ottimo": [
+     4300,
+     5100
+    ],
+    "normale": [
+     2900,
+     4200
+    ]
+   },
+   {
+    "code": "D40",
+    "nome": "MUSOCCO, CERTOSA",
+    "fascia": "D",
+    "min": 2900,
+    "max": 5000,
+    "normale": [
+     2900,
+     3500
+    ],
+    "ottimo": [
+     3600,
+     5000
+    ]
+   },
+   {
+    "code": "D34",
+    "nome": "SARCA, BICOCCA",
+    "fascia": "D",
+    "min": 3500,
+    "max": 5000,
+    "ottimo": [
+     4500,
+     5000
+    ],
+    "normale": [
+     3500,
+     4400
+    ]
+   },
+   {
+    "code": "D37",
+    "nome": "FORLANINI, MECENATE, PONTE LAMBRO",
+    "fascia": "D",
+    "min": 2900,
+    "max": 4900,
+    "ottimo": [
+     3700,
+     4900
+    ],
+    "normale": [
+     2900,
+     3600
+    ]
+   },
+   {
+    "code": "D38",
+    "nome": "SANTA GIULIA, ROGOREDO",
+    "fascia": "D",
+    "min": 3200,
+    "max": 4800,
+    "ottimo": [
+     4100,
+     4800
+    ],
+    "normale": [
+     3200,
+     4000
+    ]
+   },
+   {
+    "code": "D33",
+    "nome": "NIGUARDA, BIGNAMI, PARCO NORD",
+    "fascia": "D",
+    "min": 3000,
+    "max": 4800,
+    "ottimo": [
+     4100,
+     4800
+    ],
+    "normale": [
+     3000,
+     4000
+    ]
+   },
+   {
+    "code": "D25",
+    "nome": "LORENTEGGIO, INGANNI, BISCEGLIE, SAN CARLO B.",
+    "fascia": "D",
+    "min": 2950,
+    "max": 4700,
+    "ottimo": [
+     3600,
+     4700
+    ],
+    "normale": [
+     2950,
+     3500
+    ]
+   },
+   {
+    "code": "D32",
+    "nome": "BOVISASCA, AFFORI, P. ROSSI, COMASINA",
+    "fascia": "D",
+    "min": 2600,
+    "max": 4700,
+    "ottimo": [
+     3500,
+     4700
+    ],
+    "normale": [
+     2600,
+     3400
+    ]
+   },
+   {
+    "code": "E6",
+    "nome": "GALLARATESE, LAMPUGNANO, P. TRENNO, BONOLA",
+    "fascia": "E",
+    "min": 2700,
+    "max": 4100,
+    "ottimo": [
+     3500,
+     4100
+    ],
+    "normale": [
+     2700,
+     3400
+    ]
+   },
+   {
+    "code": "E8",
+    "nome": "QUARTO OGGIARO, SACCO",
+    "fascia": "E",
+    "min": 1900,
+    "max": 3600,
+    "ottimo": [
+     2850,
+     3600
+    ],
+    "normale": [
+     1900,
+     2800
+    ]
+   },
+   {
+    "code": "E5",
+    "nome": "BAGGIO, Q. ROMANO, MUGGIANO",
+    "fascia": "E",
+    "min": 2200,
+    "max": 3500,
+    "ottimo": [
+     3200,
+     3500
+    ],
+    "normale": [
+     2200,
+     3100
+    ]
+   },
+   {
+    "code": "E7",
+    "nome": "MISSAGLIA, GRATOSOGLIO",
+    "fascia": "E",
+    "min": 2300,
+    "max": 3000,
+    "ottimo": [
+     2750,
+     3000
+    ],
+    "normale": [
+     2300,
+     2700
+    ]
+   }
+  ]
+ }
+}

@@ -4,7 +4,7 @@
   window.__vctSearchInit = true;
 
   var PAGES = [
-    { t: "Stima valore casa", u: "/", k: "valutazione omi milano lombardia" },
+    { t: "Calcola il valore della casa", u: "/", k: "valutazione omi milano lombardia" },
     { t: "Check-Up Casa", u: "/verifica-casa/", k: "documenti ape planimetria" },
     { t: "Conviene ristrutturare?", u: "/conviene-ristrutturare/", k: "ristrutturazione costi" },
     { t: "Affitto breve vs transitorio", u: "/affitto-breve-vs-transitorio/", k: "affitto rendimento" },

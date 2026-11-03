@@ -34,13 +34,13 @@
 
   /**
    * Nav CTA A/B
-   * A (control): always "Valuta gratis" → /#form
+   * A (control): always "Calcola il valore" → /#form
    * B (variant): contextual CTA (default vct-conversion behavior)
    */
   function applyNavAb() {
     document.querySelectorAll("a.nav-cta").forEach(function (a) {
       if (navBucket === "A") {
-        a.textContent = "Valuta gratis";
+        a.textContent = "Calcola il valore";
         a.setAttribute("href", location.pathname.replace(/\/$/, "") === "" || location.pathname === "/" ? "#form" : "/#form");
       }
       a.setAttribute("data-ab-nav", navBucket);

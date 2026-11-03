@@ -10,7 +10,8 @@
     analytics_storage: "denied",
     ad_storage: "denied",
     ad_user_data: "denied",
-    ad_personalization: "denied"
+    ad_personalization: "denied",
+    wait_for_update: 500
   });
 
   function readChoice() {
@@ -134,6 +135,14 @@
     writeChoice(choice);
     hideBanner();
     if (choice === "accepted") window.vctLoadAnalytics();
+    else window.vctRevokeAnalytics();
+  };
+
+  // "Rifiuta" dopo un consenso già dato nella stessa visita: GA4 e Clarity smettono di raccogliere.
+  window.vctRevokeAnalytics = function () {
+    if (!window.__vctAnalyticsLoaded) return; // niente caricato: niente da fermare
+    window.gtag("consent", "update", { analytics_storage: "denied", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" });
+    if (typeof window.clarity === "function") window.clarity("consentv2", { ad_Storage: "denied", analytics_Storage: "denied" });
   };
   window.acceptCookies = function () { window.vctConsentChoice("accepted"); };
   window.rejectCookies = function () { window.vctConsentChoice("rejected"); };
@@ -165,7 +174,8 @@
       y = l.getElementsByTagName(r)[0];
       y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", CLARITY_ID);
-    window.clarity("consent");
+    // Clarity Consent API v2: solo analisi, niente pubblicità
+    window.clarity("consentv2", { ad_Storage: "denied", analytics_Storage: "granted" });
   };
 
   window.vctManageCookies = function () {

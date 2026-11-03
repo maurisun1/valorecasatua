@@ -607,7 +607,7 @@ async function submitForm(){
     mostraErroreValutazione('Non siamo riusciti a completare la verifica in questo momento. Nessun valore è stato calcolato per evitare un valore poco affidabile.', {code:'NETWORK_OR_ENGINE_ERROR', technical:String(err?.message||err)});
   }finally{
     btn.disabled=false;
-    btn.innerHTML='<i class="fa-solid fa-magnifying-glass-chart"></i> Mostra il valore indicativo';
+    btn.innerHTML='<i class="fa-solid fa-magnifying-glass-chart"></i> Calcola il valore';
   }
 }
 
@@ -618,6 +618,8 @@ async function inviaLead(payload, fullAddress, valuation){
     nome:payload.nome,
     telefono:payload.telefono,
     email:payload.email||'',
+    quando_vendere:payload.quando_vendere||'',
+    richiesta:'Analisi di mercato (secondo passo calcolatore)',
     citta:payload.citta,
     indirizzo:fullAddress,
     indirizzo_google:valuation?.geocode?.formatted || '',
@@ -688,11 +690,13 @@ async function submitLeadRiepilogo(){
   const payload = Object.assign({}, window.__lastValuationPayload || readValuationPayload(), {
     nome: cleanText(document.getElementById('gNome').value),
     telefono: cleanText(document.getElementById('gTel').value),
-    email: cleanText(document.getElementById('gEmail').value)
+    email: cleanText(document.getElementById('gEmail').value),
+    quando_vendere: getQuandoVendere()
   });
   const gdpr = document.getElementById('gGdpr')?.checked;
   document.querySelectorAll('#leadAfter .err-msg').forEach(e=>e.classList.remove('on'));
   let ok=true;
+  if(!payload.quando_vendere){document.getElementById('e-quando')?.classList.add('on');ok=false;}
   if(!payload.nome){document.getElementById('e-nome')?.classList.add('on');ok=false;}
   if(!payload.telefono||payload.telefono.replace(/\D/g,'').length<9){document.getElementById('e-tel')?.classList.add('on');ok=false;}
   if(payload.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)){document.getElementById('e-email')?.classList.add('on');ok=false;}
@@ -705,24 +709,42 @@ async function submitLeadRiepilogo(){
   const valuation = window.__lastValuationData || {ok:false, code:'lead_only'};
   try{
     await inviaLead(payload, fullAddress, valuation);
-    if (window.vctTrack) vctTrack('lead_submit_success',{form_id:'home_riepilogo'});vctTrack('riepilogo_lead');
+    if (window.vctTrack) { vctTrack('lead_submit_success',{form_id:'home_analisi_mercato', quando_vendere:payload.quando_vendere}); vctTrack('riepilogo_lead'); }
     const thanks=document.getElementById('leadThanks');
     if(thanks){ thanks.hidden=false; thanks.style.display='block'; }
     if(btn) btn.style.display='none';
-    const wa=document.getElementById('waBtn');
-    if(wa){
-      const range = valuation?.ok && valuation?.result
-        ? `${fmt(valuation.result.vMin)} – ${fmt(valuation.result.vMax)}`
-        : 'da approfondire';
-      const zona = valuation?.zone?.name || payload.citta || '';
-      wa.href = `https://wa.me/393516292353?text=${encodeURIComponent(`Ciao, sono ${payload.nome}. Ho calcolato il valore indicativo su ValoreCasaTua.it (${zona}: ${range}) e vorrei il quadro completo.`)}`;
-    }
+    updateWaAnalisi(payload.nome);
   }catch(err){
     console.error(err);
-    if(btn){btn.disabled=false;btn.innerHTML='<i class="fa-solid fa-paper-plane"></i> Ricevi il riepilogo';}
+    if(btn){btn.disabled=false;btn.innerHTML='<i class="fa-solid fa-paper-plane"></i> Voglio l\'analisi di mercato';}
     alert('Invio non riuscito. Riprova o scrivici su WhatsApp.');
   }
 }
+
+function getQuandoVendere(){
+  const el=document.querySelector('input[name="quando_vendere"]:checked');
+  return el ? el.value : '';
+}
+
+// Messaggio WhatsApp precompilato per l'analisi di mercato (include la tempistica se scelta)
+function updateWaAnalisi(nome){
+  const wa=document.getElementById('waBtn');
+  if(!wa) return;
+  const v=window.__lastValuationData;
+  const range = v?.ok && v?.result ? `${fmt(v.result.vMin)} – ${fmt(v.result.vMax)}` : 'da approfondire';
+  const zona = v?.zone?.name || (window.__lastValuationPayload||{}).citta || '';
+  const quando = getQuandoVendere();
+  let msg = (nome ? `Ciao, sono ${nome}. ` : 'Ciao, ') +
+    `Ho calcolato il valore indicativo su ValoreCasaTua.it (${zona}: ${range}) e vorrei l'analisi di mercato del mio immobile.`;
+  if(quando) msg += ` Quando penso di vendere: ${quando}.`;
+  wa.href = `https://wa.me/393516292353?text=${encodeURIComponent(msg)}`;
+}
+document.addEventListener('change', e=>{
+  if(e.target && e.target.name==='quando_vendere'){
+    document.getElementById('e-quando')?.classList.remove('on');
+    updateWaAnalisi(cleanText(document.getElementById('gNome')?.value||''));
+  }
+});
 
 function escapeHtml(str){
   return String(str||'').replace(/[&<>'"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -751,7 +773,7 @@ function mostraRisultato(r,nome){
     <div class="rm"><div class="rm-l">Prezzo al m²</div><div class="rm-v">${fmtK(r.pMq)} €/mq</div></div>
     <div class="rm"><div class="rm-l">Zona</div><div class="rm-v">${escapeHtml(r.z.code||'rilevata')}</div></div>
     <div class="rm"><div class="rm-l">Fonte dati</div><div class="rm-v">${escapeHtml(r.dataSource||'territoriale')}</div></div>`;
-  const waMsg=encodeURIComponent(`Ciao, ho calcolato il valore indicativo su ValoreCasaTua.it per un immobile in zona ${r.z.name}: ${fmt(r.vMin)} – ${fmt(r.vMax)}. Vorrei il quadro completo sui numeri.`);
+  const waMsg=encodeURIComponent(`Ciao, ho calcolato il valore indicativo su ValoreCasaTua.it per un immobile in zona ${r.z.name}: ${fmt(r.vMin)} – ${fmt(r.vMax)}. Vorrei l'analisi di mercato del mio immobile.`);
   document.getElementById('waBtn').href=`https://wa.me/393516292353?text=${waMsg}`;
   const body=document.querySelector('.fc-body');
   if(body) body.style.display='none';
